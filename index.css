@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.897)  50%, rgb(129, 3, 3)  50%);
+    overflow:hidden;
+    padding:0;
+
+}
+
+.navbar-el {
+    display:Flex;
+    margin-left:20px;
+}
+
+.image{
+    height: 60px;
+}
+
+.links{
+    display: flex;
+    flex:1; 
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.links a {
+    color:white;
+    text-decoration: none;
+    font-size:1.1em
+}
+
+.links img {
+    display: none;
+}
+
+.navbar-el img {
+    height: 10vh;
+}
+
+.product-info {
+    color:white;
+    font-weight: bold;
+    margin: 10% 0 0 8%
+}
+
+.nike {
+    font-family: 'Rum Raisin', sans-serif;
+    font-size:100px;
+    line-height: 0;
+}
+
+.nike-info {
+    font-size:90px;
+    max-width: 400px;
+    line-height: default;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.product  {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy-btn {
+    font-size:1.5em;
+    width: 200px;
+    padding:15px;
+    border-radius: 20px;
+    border:none;
+    color:white;
+    background-color:rgba(182, 172, 172, 0.274);
+    box-shadow: rgba(209, 202, 202, 0.35) 0px 5px 15px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.product img {
+    height: 60vh
+}
+
+.basket-icon {
+    background-color:white;
+    border-radius: 50%;
+    height: 4.5%;
+    padding:20px;
+    position: absolute;
+    right:0;
+    bottom:0;
+    margin: 0 24px 10px 0;
+
+}
+
+@media (max-width:700px) {
+
+    ul li {
+        display: none;
+    }
+
+    .links img {
+        margin-left:auto;
+        display: block;
+        margin-right:20px;
+    }
+}
+
+.nike-made {
+    position: absolute;
+    left: 50%;
+    top: 92%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
